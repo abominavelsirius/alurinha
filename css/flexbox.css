@@ -10,6 +10,17 @@
     display: flex;
 } 
 
+/*   ================================================================= */
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    flex-direction: column; /* começa com row (pros lados), column vai de baixo pra cima */
+    flex-wrap: wrap; /* quebra a proxima coluna  */
+    /* flex-flow: column wrap; */
+    height: 250px;
+}
+
+
 /*  RODAPÉ ================================================================= */
 
 .rodapePrincipal-patrocinadores .container {
