@@ -33,6 +33,29 @@
 }
 /* por que o numero 1 foi tambem? porque a conta começa em 4 * 0 depois + 1 = 1 */
 
+/*   ================================================================= */
+
+
+.videoSobre .container {
+    display: flex;;
+}
+
+.videoSobre-sobre {
+    text-align: center;
+    display: flex;
+    flex-direction: column;;
+    flex-grow: 2; /* você flex-item, quero q vc cresça o tamanho q sobrou da página */
+}
+
+.videoSobre-sobre-list {
+    flex-grow: 1;
+}
+
+.videoSobre-video {
+    flex-grow: 1;
+    flex-shrink: 2; /* conforme a tela diminue(responsivo), o video diminua 2x mais que o vantagem */
+}
+
 
 /*   ================================================================= */
 
@@ -116,6 +139,14 @@
 
 .cabecalhoPrincipal-nav-link-app {
     order: -1;
+}
+
+.videoSobre .container {
+    flex-direction: column;
+}
+
+.videoSobre-video {
+    margin: 0 auto;
 }
 
 }
